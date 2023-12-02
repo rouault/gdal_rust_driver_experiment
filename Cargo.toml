@@ -1,0 +1,15 @@
+[package]
+name = "gdal_rust_driver"
+version = "0.1.0"
+license = "MIT"
+authors = ["Even Rouault"]
+edition = "2021"
+rust-version = "1.58"
+
+[lib]
+name         = "gdal_rust_driver"
+crate-type   = ["rlib", "cdylib"]
+
+[dependencies]
+libc = "0.2.85"
+thin_trait_object = "1.1.2"
